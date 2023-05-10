@@ -1,0 +1,23 @@
+/* This is a comment */
+img{
+    width: 350px;
+    float: right;
+}
+
+h1{
+    color: lightcoral;
+    font-size: 100px;
+}
+
+p{
+    color: lightseagreen;
+    font-size: 50px;
+    font-style: normal;
+}
+
+section{
+    background-color: rgb(250, 220, 224);
+    overflow: auto;
+    padding: 25px;
+}
+
