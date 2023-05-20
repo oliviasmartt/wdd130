@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sigmar&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;   
@@ -7,6 +8,7 @@ nav a{
     text-align:center;
     color: cornsilk;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align:center;
@@ -25,7 +27,11 @@ main section{
     background-color: tan;
 }
 body {
-    background-color: darkolivegreen;
+    background-color: tan;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: darkolivegreen;
@@ -38,6 +44,9 @@ nav a:hover {
     background-color: darkolivegreen;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: darkolivegreen;
@@ -45,13 +54,17 @@ nav a:hover {
 }
 .msg{
     background-color: white;
+    line-height: 1.5em;
 }
 footer{
     background-color: darkolivegreen;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: white;
+    margin-top: 10px;
 }
 h4 {
     color: white;
@@ -61,6 +74,7 @@ h4 {
 }
 .msg p {
     color: darkolivegreen;
+    padding-bottom: 15px;
 }
 footer a {
     color: white;
@@ -70,11 +84,12 @@ footer a hover {
     color: darkolivegreen;
 }
 .icon {
-    width: 80px
+    width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
-    width: 80px
+    width: 80px;
 }
 
 #hero-img {
@@ -85,4 +100,32 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: "Sigmar";
+    font-size: 2em;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid darkolivegreen;
+}
+main section img {
+    box-sizing: border-box;
 }
