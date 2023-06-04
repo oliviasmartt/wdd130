@@ -128,7 +128,7 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
-    justify-self: 5px;
+    justify-self: center;
     align-self: center;
 }
 footer .social img {
@@ -181,7 +181,7 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
-    opacity: .6;
+    opacity: .8;
     transform: scale(1.1);
 }
 .home-grid {
