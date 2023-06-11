@@ -1,0 +1,4 @@
+.resized-image {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
