@@ -234,6 +234,11 @@ form {
     border: 2px solid darkolivegreen;
     border-radius: 1em;
 }
+.rafting-card {
+    width: 1000px;
+    height: auto;     
+    margin: 100px 100px;
+}
 
   
   input,
