@@ -1,0 +1,24 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;   
+}
+
+nav a{
+    text-align:center;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 35px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: darkolivegreen;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: rgb(9, 87, 66);
+    color: lightseagreen;
+}
