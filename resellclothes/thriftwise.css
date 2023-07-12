@@ -8,6 +8,7 @@
 nav a{
     text-align:center;
     color: cornsilk;
+    font-size: 2em;
     text-decoration: none;
     padding: 35px;
 }
@@ -23,8 +24,8 @@ nav {
     justify-content: space-around;
 }
 nav a:hover {
-    background-color: rgb(9, 87, 66);
-    color: lightseagreen;
+    background-color: #ff0a54;
+    color: white;
 }
 #hero-img {
     width: 100%;
@@ -79,14 +80,15 @@ footer{
     margin-left: 20px;
     width: 80px;
 }
-#picture a{
+#picture {
     display: flex;
     justify-content: space-between;
     
   }
   
   #picture img{
-    flex: 1;
+    
+    flex: 2;
     width: 200%;
     height: auto;
     object-fit: cover;
@@ -95,6 +97,67 @@ footer{
     border-radius: 75px;
     margin-top: 40px;
     position: relative;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a hover {
+    color: #ff0a54;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-column: 2 ;
+    grid-auto-flow: 4;
+    font-size: 4em;
+    text-shadow: 2px 2px 5px rgb(218, 74, 113);
 
   }
   
+  .overlay h2, .overlay p {
+    margin: 0;
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap size between grid items */
+  }
+  .overlate {
+    bottom: 200;
+    right: 0;
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 4em;
+    text-shadow: 2px 2px 5px rgb(218, 74, 113);
+
+  }
+  
+ 
