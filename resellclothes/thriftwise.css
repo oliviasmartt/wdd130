@@ -19,6 +19,9 @@ header {
     grid-row: 1;
 
 }
+body {
+  background-color: rgb(255, 215, 224);
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -82,7 +85,7 @@ footer{
   flex-direction: column;
 }
 .footer2{
-  margin-top: auto;
+  margin-bottom: auto;
 }
 .logo {
     margin-left: 20px;
@@ -105,7 +108,7 @@ footer{
   }
 
   #picture #bottoms-img{
-    width: 90%;
+    width: 95%;
     height: 100%;
     border-radius: 75px;
     grid-column: 2/3;
@@ -113,6 +116,10 @@ footer{
     margin-top: 20px;
     align-items: center;
     margin-right: -20px;
+  }
+  .overlate {
+    position: absolute right;
+ 
   }
 
 
@@ -136,15 +143,13 @@ footer .social img {
     grid-template-columns: 150px auto;
   }
   
-  .overlay {
+  #overlay {
     position: absolute;
     width: 70%;
     height: 50%;
     color: cornsilk;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 20px;
     grid-column: 2 ;
     grid-auto-flow: 4;
@@ -153,30 +158,18 @@ footer .social img {
 
   }
   
-  .overlay h2, .overlay p {
-    margin: 0;
-    text-align: center;
-  }
   .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr); /* Adjust the number of columns as needed */
     gap: 20px; /* Adjust the gap size between grid items */
   }
-  .overlate {
-    bottom: 200;
-    right: 0;
-    position: absolute;
+#overlate {
     width: 70%;
     height: 50%;
-    color: cornsilk;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: black;
     padding: 20px;
-    font-size: 2em;
+    font-size: 1em;
     text-shadow: 2px 2px 5px rgb(218, 74, 113);
-
   }
 
 #title{
@@ -443,6 +436,27 @@ textarea {
   text-align: center;
   
 }
+
+#content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#about2 {
+  flex: 1;
+  margin: 20px;
+}
+
+#footer2 {
+  background-color: #ffb3c6;
+  color: white;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 button {
   /* This extra margin represent roughly the same space as the space
